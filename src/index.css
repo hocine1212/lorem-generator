@@ -1,0 +1,116 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: #f8fafc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #0f172a;
+}
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+
+  font-weight: 400;
+  line-height: 1;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.section-center {
+  width: min(80vw, 40rem);
+  margin: 10rem auto;
+}
+
+.section-center h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.lorem-form {
+  margin: 2rem 0 4rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lorem-form label {
+  font-size: 1.25rem;
+}
+
+.lorem-form input {
+  padding: 0.25rem 0.5rem;
+  width: 4rem;
+  font-size: 1.25rem;
+  background-color: #cbd5e1;
+  border-color: transparent;
+  border-radius: 0.25rem;
+}
+
+.submit-btn {
+  padding: 0 0.75rem;
+  border-color: transparent;
+  background-color: #10b981;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  display: inline-block;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.submit-btn:hover {
+  background-color: #047857;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.lorem-form .submit-btn {
+  align-self: stretch;
+}
+
+.lorem-text p {
+  line-height: 2;
+  margin-bottom: 2rem;
+}
